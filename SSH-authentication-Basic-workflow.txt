@@ -1,0 +1,3 @@
+1. Generate SSH key, add public key in authorized keys and also add on the cloud inside instance this key( whitelisting of key). click edit option add key and save.
+2. inside remote explorer click on the setting and inside ssh-config, add Hostname as external ip of instance, the username on instace and identity file as path to private key.
+3. Then easily ssh-authentication will get performed
